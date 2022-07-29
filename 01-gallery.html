@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Image gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -13,7 +21,24 @@
 
     <!-- Add gallery items to this list -->
     <div class="gallery"></div>
+    <!-- <h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
+      Facebook inspired design, customized background
+    </h1> -->
 
+    <!-- <div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
+      <a data-fancybox="gallery" href="https://lipsum.app/id/46/1600x1200">
+        <img class="rounded" src="https://lipsum.app/id/46/200x150" />
+      </a>
+      <a data-fancybox="gallery" href="https://lipsum.app/id/47/1600x1200">
+        <img class="rounded" src="https://lipsum.app/id/47/200x150" />
+      </a>
+      <a data-fancybox="gallery" href="https://lipsum.app/id/51/1600x1200">
+        <img class="rounded" src="https://lipsum.app/id/51/200x150" />
+      </a>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <script src="js/01-gallery.js" type="module"></script>
   </body>
 </html>
